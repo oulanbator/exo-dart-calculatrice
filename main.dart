@@ -30,10 +30,11 @@ void main() {
   assert(calc.additionLast(5.25) == 20);
   print("OK => Addition : (dernier résultat) + 5.25 = 20.0");
 
-  // On réinitialise la calculatrice, et le dernier résultat par la même occasion :)
+  // On réinitialise la calculatrice, et le dernier résultat par la même occasion
+  print("Reset de la calculatrice");
   calc = Calculatrice();
 
-  // Addition : (dernier résultat) + 5 = 5.0
+  // Addition : (dernier résultat = 0) + 5 = 5.0
   assert(calc.additionLast(5) == 5);
   print("OK => Addition : (dernier résultat) + 5 = 5.0");
 
@@ -79,7 +80,7 @@ void main() {
 
   // Addition : (dernier résultat) + 5 = 9
   assert(calc.additionLast(5) == 9);
-  print("OK => Addition : (dernier résultat) + 5 = 9");
+  print("OK => Addition : (dernier résultat) + 5 = 9.0");
 
   print("------------------------------------------------");
   print("Bien joué ! La calculatrice fonctionne bien !");
