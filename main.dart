@@ -1,5 +1,7 @@
 // ignore_for_file: unnecessary_type_check
 
+import 'calculatrice.dart';
+
 void main() {
   var calc = Calculatrice();
 
