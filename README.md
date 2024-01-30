@@ -6,7 +6,9 @@ L'objectif est de créer une calcultatrice fonctionnelle. Elle permet de faire d
 
 Clonez le projet :
 
-> git clone https://github.com/oulanbator/exo-dart-calculatrice.git
+```
+git clone https://github.com/oulanbator/exo-dart-calculatrice.git
+```
 
 1 - En vous aidant des commentaires, des prints et des assertions, implémentez la classe Calcultrice (dans calculatrice.dart) afin qu'elle passe l'ensemble des tests.
 
